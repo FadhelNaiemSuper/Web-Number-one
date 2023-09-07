@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #aeaeae;
+    color: #333;
+    background-image: url('latartugas.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    width: 880px;
+    background: #fff;
+    margin: auto;
+
+}
+
+.header{
+    padding: 15px;
+}
+
+.header .judul{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps
+}
+
+.header .judul span{
+    color: royalblue;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 4px;
+}
+
+.header a:hover{
+    background-color: blue;
+    color: #ffffff;
+}
+
+.banner{
+    height: 300px;
+    background-image: url('fototugas.png');
+    background-position: center;
+    background-size: cover;
+    border-bottom: 5px solid orange;
+    border-top: 5px solid lightgreen;
+}
+
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .penulis{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content p {
+    margin-bottom: 20px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.footer {
+    background-color: royalblue;
+    padding: 15px;
+}
+
+.footer .copyright {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
